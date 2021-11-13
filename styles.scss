@@ -53,7 +53,7 @@ a.secondary_button, input.secondary_button {font-family:"Futura PT W01 Medium"; 
 .footer p{font-family:"Futura PT W01 Book" !important;}
 .footer .collapse-btn{font-family:"Futura PT W01 Medium" !important;}
 
-input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="url"], input[type="tel"], input[type="number"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="range"], input[type="color"], select, textarea{font-family:"Futura PT W01 Book" !important; border: 1px solid #494949;     border-radius: 0 !important;}
+input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="url"], input[type="tel"], input[type="number"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="range"], input[type="color"], select, textarea{font-family:"Futura PT W01 Book" !important; color: #fff}
 .collection_heading{font-family:"Futura PT W01 Medium" !important; font-size:32px !important; text-transform: capitalize; font-weight: normal;  margin-bottom: 0; text-align:left;}
 .filter_heading{font-family:"Futura PT W01 Medium" !important; font-size:24px; margin-top: 22px; text-transform: capitalize; font-weight: normal;}
 .sort-by-toggle{font-family:"Futura PT W01 Medium" !important; font-size:16px; line-height: 46px !important; font-weight: normal;}
@@ -212,7 +212,7 @@ body.blocked-scroll { position: relative; overflow: visible;}
 .custom-featured-collection .js-product-slider .flickity-prev-next-button{display:none;}
 /* .thumbnail:not(.align-height--false) img.lazyloaded {height: auto; max-height: 356px;} */
 /* Home - Making it Happen */
-.product-details .title{text-transform: capitalize !important; font-size: 20px; font-weight: normal; margin-bottom:15px; margin-top: -25px;}
+.product-details .title{text-transform: capitalize !important; font-size: 20px; font-weight: normal; margin-bottom:15px;}
 
 .making-it-happen .title{text-align: left; font-weight:normal; text-transform: initial;  font-size: 36px;  margin-top: 40px;}
 .making-it-happen .box-wrap{position:relative;}
@@ -1532,7 +1532,7 @@ color: #ffffff; border-color: #ffffff; background-color: transparent;}
     #infiniteoptions-container .Charity .spb-productoptionswatchwrapper:nth-child(3) .spb-productoptionswatch{
       background-size: auto 24px!important;
     }
-    .mobile_nav-fixed--false .dropdown_container[data-dropdown="menu"]{position: fixed;  left: 0;  right: 0;  top: 100px;   bottom: 0;  z-index: 99999; overflow: auto; }
+    .mobile_nav-fixed--false .dropdown_container[data-dropdown="menu"]{position: fixed;  left: 0;  right: 0;  top: 100px;   bottom: 0;  z-index: 99999; overflow: auto; display: block; }
     .mobile_nav-fixed--false .dropdown_container[data-dropdown="menu"] #mobile_menu > li,
 	.mobile-mega-menu > div,
     .mobile-mega-menu_block ul > li,
